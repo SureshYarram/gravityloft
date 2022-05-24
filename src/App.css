@@ -1,38 +1,233 @@
-.App {
+#navbar{
+  width: 99%;
+  height: 100px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  border: 2px solid black;
+  margin: auto;
+}
+
+#icon{
+  position: absolute;
+width: 43px;
+height: 42px;
+left: 150px;
+top: 29px;
+}
+#navleft{
+ margin-left:750px;
+}
+#contact{ 
+  width: 96px;
+  height: 23px;
+font-style: Medium;
+font-size: 18px;
+line-height: 23px;
+line-height: 100%;
+text-align: left;
+vertical-align: top;
+color: Solid
+#727479;
+margin-right: 30px;
+}
+#login{
+  width: 133px;
+  height: 44px;
+ font-style: normal;
+ font-size: 18px;
+line-height: 23px;
+line-height: 100%;
+text-align: center;
+vertical-align: top;
+border-radius: 7px;
+ color:  solid #5746EC;
+ border: 1px solid #5746EC;
+ margin-right: 15px;
+}
+#register{
+  width: 133px;
+  height: 44px;
+  font-size: 18px;
+line-height: 23px;
+
+text-align: center;
+vertical-align: top;
+  background-color: #5746EC;
+  border-radius: 8px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.updiv{
+  width: 97%;
+  margin: auto;
+  display: flex;
+  height: 801px;
+  left: 0px;
+  top: 99px;
+  background: #F8F8F8;
+  border: 2px solid black;
+  }
+  .clouddiv{
+   
+    width: 100%;
+    border: 2px solid red;
+    margin-top: 80px;
+  }
+  .text{
+   font-size: 437%;
+    line-height: 82px;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: -2%;
+    color: black;
+   margin-bottom: 20px;
+   font-weight: 600;
+   margin-top: 100px;
+  }
+  
+  .clouddiv> .childdiv{
+  
+   width: 85%;
+   height: 670px;
+   margin: auto;
+   display: flex;
+    border: 2px solid blue;
+    margin-bottom: 51px;
+  }
+  .loremtext{
+   width: 527px;
+   height: 25px;
+   margin: auto;
+  font-style: normal;
+  
+  font-size: 125%;
+  line-height: 25px;
+  line-height: 96%;
+  text-align: center;
+  vertical-align: top;
+  color: Solid
+  #5C5F62;
+  }
+  
+  .faq{
+    width: 85%;
+   height: 701px;
+   margin: auto;
+   border-radius: 12px;
+    border: 2px solid red;
+  
+  }
+.leftdiv{
+  height: 100%;
+  width: 100%;
+  margin-top:23%;
+  margin-left: 7%;
+}
+.content{
+  width: 80%;
+  height: 240px;
+  border: 1px solid black;
+  /* margin-top:23%; */
+  /* margin-left: 7%; */
+}
+.loremcontent{
+  width: 70%;
+  height:60px;
+  /* margin-left: 7%; */
+  border: 1px solid black;
+}
+#rightdiv{
+  width: 48%;
+  height: 472px;
+  border: 1px solid red;
+ margin-top: 15%;
+ margin-right: 9%;
+ Offset: 0px, 10px
+rgba(180, 212, 221, 0.2);
+background-color:#FFFFFF;
+}
+.content>p{
+font-style: normal;
+font-size: 300%;
+line-height: 80px;
+line-height: 107%;
+text-align: left;
+Vertical-align: top;
+letter-spacing: -2%;
+}
+.color{
+  background: linear-gradient( #5746EC 0%,#F55656 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  
+}
+#rightdiv>p{
+ 
+font-style: normal;
+font-size: 35px;
+line-height: 45px;
+line-height: 110%;
+text-align: center;
+vertical-align: top;
+}
+label{
+  
+font-style: normal;
+font-size: 18px;
+line-height: 21px;
+line-height: 100%;
+vertical-align: top;
+margin: 3%;
+color: #666666;
+}
+.input{
+ margin-left: 3%;
+ width: 88%;
+ height: 54px;
+}
+#btn{
+  margin: 4%;
+  width: 88%;
+ height: 50px;
+background-color:  #5746EC;
+border: none;
+color: white;
+border-radius: 10px;
+}
+.left{
+  width: 38%;
+  border: 1px solid red;
+  height: 670px;
+  margin-right: 23%;
+  background-color: white;
+}
+.right{
+  background-color: #5746EC;
+  width: 45%;
+}
+.search{
+  width: 80%;
+  height: 85%;
+ margin: 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.left>p:nth-child(1){
+  margin-top: 20%;
+  margin-bottom: 5%;
+font-weight: 500;
+font-size: 300%;
+/* Line height: 54px */
+line-height: 100%;
+vertical-align: top;
+}
+.left>p:nth-child(2){
+  font-weight: 500;
+  font-size: 200%;
+  line-height: 100%;
+}
+.left>p:nth-child(4){
+  color: #5746EC;
+  margin-left: 9%;
+  vertical-align: top;
 }
