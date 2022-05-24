@@ -14,7 +14,7 @@
 }
 
 #icon{
-  position: absolute;
+  
 width: 43px;
 height: 42px;
 left: 150px;
@@ -355,9 +355,13 @@ ul>li{
 
 
 @media screen and (max-width: 700px){
+
+  #navbar{
+
+  }
 .updiv{
   width: 100%;
-display: block;
+
 }
 
 }
