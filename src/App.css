@@ -284,12 +284,12 @@ font-weight: 500;
 font-size: 300%;
 line-height: 100%;
 text-align: center;
-vertical-align: top;
+
 color: white;
 
 width: 53%;
 margin: auto;
-margin-top: 6%;
+padding-top: 33px;
 }
 .contact>p:nth-child(2){
   font-family: sans-serif;
