@@ -13,12 +13,15 @@ export const NavbarIs = ()=>{
 
   <Navbar id="navbar">
     <Container>
+    <div>
     <Navbar.Brand href="#home"><img id="icon" src={Logo} alt="" /></Navbar.Brand>
-    <Nav className="me-auto" id="navleft">
+    </div>
+    <div> <Nav className="me-auto" id="navleft">
       <Nav.Link id="contact" href="#">Contactus</Nav.Link>
       <Nav.Link id="login" href="#">Login</Nav.Link>
       <Nav.Link id="register" href="#">Register</Nav.Link>
-    </Nav>
+    </Nav></div>
+   
     </Container>
   </Navbar>
 </>
