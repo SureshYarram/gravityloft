@@ -402,6 +402,7 @@ font-size: 18px;
 .left{
   width: 100%;
   height: 50%;
+  text-align: center;
 }
 .right{
   width: 100%;
@@ -416,5 +417,31 @@ font-size: 18px;
 }
 .left>p:nth-child(3){
   font-size: 12px;
+}
+.contact{
+  width: 100%;
+}
+.contact>p:nth-child(1){
+  font-size: 25px;
+  width: 90%;
+  margin-bottom: 10%;
+}
+.contact>p:nth-child(2){
+  width: 90%;
+  margin-bottom: 10%;
+}
+.faq{
+  width: 100%;
+}
+
+.footer{
+  width: 100%;
+  
+}
+.footer p{
+font-size: 14px;
+}
+li,ul{
+  font-size: 14px;
 }
 }
