@@ -7,7 +7,7 @@
   height: 100px;
   background: #FFFFFF;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
-  border: 2px solid black;
+ 
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -47,7 +47,7 @@ text-align: center;
 vertical-align: top;
 border-radius: 7px;
  color:  solid #5746EC;
- border: 1px solid #5746EC;
+
  margin-right: 10%;
 }
 #register{
@@ -71,12 +71,12 @@ vertical-align: top;
   left: 0px;
   top: 99px;
   background: #F8F8F8;
-  border: 2px solid black;
+
   }
   .clouddiv{
    
     width: 100%;
-    border: 2px solid red;
+   
     margin-top: 80px;
    
   }
@@ -99,7 +99,7 @@ vertical-align: top;
    height: 550px;
    margin: auto;
    display: flex;
-    border: 2px solid blue;
+   
     margin-bottom: 51px;
     justify-content: space-between;
   }
@@ -124,7 +124,7 @@ vertical-align: top;
    margin: auto;
    border-radius: 12px;
    margin-top: 4%;
-    /* border: 2px solid red; */
+ 
     background-color: #FFFFFF;
     box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 20px;
   
@@ -138,7 +138,7 @@ vertical-align: top;
 .content{
   width: 80%;
   height: 240px;
-  border: 1px solid black;
+ 
   /* margin-top:23%; */
   /* margin-left: 7%; */
 }
@@ -146,12 +146,12 @@ vertical-align: top;
   width: 70%;
   height:60px;
   /* margin-left: 7%; */
-  border: 1px solid black;
+
 }
 #rightdiv{
   width: 48%;
   height: 472px;
-  border: 1px solid red;
+
  margin-top: 15%;
  margin-right: 9%;
  Offset: 0px, 10px
@@ -208,7 +208,7 @@ border-radius: 10px;
 }
 .left{
   width: 42%;
-  border: 1px solid red;
+ 
   /* height: 100%; */
   /* margin-right: 10%; */
   background-color: white;
@@ -271,7 +271,7 @@ margin:2%;
   width: 80%;
   height: 350px;
   margin: auto;
-  border: solid violet 2px;
+
   margin-top: 10%;
   border-radius: 12px;
   background: rgb(87,70,236);
@@ -286,7 +286,7 @@ line-height: 100%;
 text-align: center;
 vertical-align: top;
 color: white;
-border: solid pink 2px;
+
 width: 53%;
 margin: auto;
 margin-top: 6%;
@@ -299,7 +299,7 @@ margin-top: 6%;
   text-align: center;
   vertical-align: top;
   color: white;
-  border: solid pink 2px;
+ 
   width: 50%;
   margin: auto;
   margin-top: 3%;
@@ -317,15 +317,13 @@ margin-top: 6%;
 }
 .footer{
   display: flex;
-  border: solid black 2px;
+ 
   width: 80%;
   height: 400px ;
   margin: auto;
   margin-bottom: 5%;
 }
-.footer>div{
-  border: solid blue 2px;
-}
+
 .footer>div{
   width: 20%;
   height: 100%;
@@ -347,7 +345,7 @@ ul>li{
 }
 #para{
   margin-top: 10%;
-  border: 2px solid violet;
+
   font-weight: normal;
   font-size: 14px;
   text-align: start;
